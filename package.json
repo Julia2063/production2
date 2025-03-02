@@ -7,12 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
-    "start": "webpack serve --env port=3000"
+    "start": "webpack serve --env port=3000",
+    "lint:ts": "npx eslint \"**/*.{ts,tsx}\"",
+    "lint:ts:fix": "npx eslint \"**/*.{ts,tsx}\" --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^22.13.4",
     "@types/react": "^19.0.9",
     "@types/react-dom": "^19.0.3",
@@ -20,6 +24,9 @@
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.2",
     "css-loader": "^7.1.2",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.85.0",
@@ -28,13 +35,18 @@
     "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
     "react-router-dom": "^7.2.0"
   }
 }
