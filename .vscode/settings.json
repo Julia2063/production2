@@ -1,0 +1,27 @@
+{
+    "react-i18n.i18nPaths": "public/locales,src/shared/config/i18n",
+    "i18next.i18nPaths": "/Users/uliaterehova/Documents/Projects/production-project/public/locales,/Users/uliaterehova/Documents/Projects/production-project/src/shared/config/i18n",
+    "i18n-ally.localesPaths": [
+        "public/locales",
+        "src/app/config/i18n"
+    ],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.namespace": true,
+    "i18n-ally.defaultNamespace": "translation",
+
+    "i18n-ally.pathMatcher": "{locale}/{namespace}.json",
+    "stylelint.config": null,
+
+    "css.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
+    "stylelint.stylelintPath": "./node_modules/stylelint"
+}
+
+
+
+

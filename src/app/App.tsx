@@ -1,5 +1,5 @@
 import './styles/index.scss'
-import { classnames } from "shared/lib/classnames"
+import { classnames } from "shared/lib/classnames/classnames"
 import { useTheme } from "app/providers/ThemeProvider"
 
 import { AppRouter } from "app/providers/Router"
@@ -17,13 +17,13 @@ const App = () => {
 
     return (
         <div className={classnames('app', {}, [`${theme}`])}>
-            
+
             <Navbar />
             <div className="content-page">
                 <Sidebar />
                 <AppRouter />
             </div>
-            
+
         </div>
     )
 }
