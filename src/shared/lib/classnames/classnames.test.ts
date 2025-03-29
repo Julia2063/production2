@@ -29,10 +29,10 @@ describe('classnames', () => {
     })
 
     test('with undefind mod', () => {
-        const result = 'someClass class1 scrollable'
+        const result = 'someClass class1 visible scrollable'
         expect(classnames(
             'someClass', 
-            { visible: undefined, scrollable: true },
+            { visible: true, scrollable: true },
             ['class1']))
             .toBe(result)
     })
