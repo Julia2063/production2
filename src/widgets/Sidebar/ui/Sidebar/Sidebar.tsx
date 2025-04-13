@@ -1,4 +1,4 @@
-/* eslint-disable i18next/no-literal-string */
+
 import { useState } from "react";
 import classes from "./Sidebar.module.scss";
 import { classnames } from "shared/lib/classnames/classnames";

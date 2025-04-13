@@ -29,6 +29,7 @@ export default [
             "object-curly-spacing": ["error", "always"], 
             "@typescript-eslint/no-unused-expressions": "off",
             'max-len': ['error', {  code: 100, ignoreComments: true }],
+            'react/display-name': 'off',
         }
     },
     {

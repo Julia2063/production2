@@ -4,6 +4,7 @@ import { classnames } from "shared/lib/classnames/classnames";
 
 export enum ButtonTheme {
   CLEAR = "clear",
+  OUTLINE = "outline",
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -14,7 +15,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button = ({
     className,
     children,
-    theme = ButtonTheme.CLEAR,
+    theme,
     ...props
 }: ButtonProps) => {
     return (
