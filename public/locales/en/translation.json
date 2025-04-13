@@ -1,10 +1,10 @@
 {
   "lang": "English",
-  "main": {
-    "notFound": "Page not Found"
-  },
   "notFound": "Page not Found",
   "addError": "Add Error",
   "somethingWrong": "Something went wrong",
-  "tryReload": "Try to reload"
+  "tryReload": "Try to reload",
+  "about": "About us",
+  "main": "Main Page",
+  "Toggle": "Toggle"
 }
