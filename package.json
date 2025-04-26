@@ -6,7 +6,7 @@
   "scripts": {
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx loki test",
-    "test:ui:ci": "npx loki --requireReference --chromeConcurrency 1 --chromeLoadTimeout 60000 --chromeRetries 2 --chromeSelector '#root'",
+    "test:ui:ci": "npx loki --requireReference --chromeConcurrency 1 --chromeRetries 2",
     "test:ui:ok": "npx loki app",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
@@ -113,26 +113,28 @@
       "react": "^17.0.2"
     }
   },
-  "loki": {
+ "loki": {
   "reactUri": "http://localhost:6006",
   "chromeSelector": "#root",
-  "setupTimeout": 30000,
   "configurations": {
     "chrome.laptop": {
       "target": "chrome.docker",
       "width": 1366,
       "height": 768,
       "deviceScaleFactor": 1,
-      "mobile": false
+      "mobile": false,
+      "chromeLoadTimeout": 60000
     },
     "chrome.mobile-narrow": {
       "target": "chrome.docker",
       "width": 375,
       "height": 700,
       "deviceScaleFactor": 1,
-      "mobile": true
+      "mobile": true,
+      "chromeLoadTimeout": 60000
     }
   }
 }
+
 
 }
