@@ -113,22 +113,25 @@
       "react": "^17.0.2"
     }
   },
-  "loki": {
-    "configurations": {
-      "chrome.laptop": {
-        "target": "chrome.app",
-        "width": 1366,
-        "height": 768,
-        "deviceScaleFactor": 1,
-        "mobile": false
-      },
-      "chrome.mobile-narrow": {
-        "target": "chrome.app",
-        "width": 375,
-        "height": 700,
-        "deviceScaleFactor": 1,
-        "mobile": true
-      }
+ "loki": {
+  "reactUri": "http://localhost:6006",
+  "chromeTimeout": 30000,
+  "configurations": {
+    "chrome.laptop": {
+      "target": "chrome.app",
+      "width": 1366,
+      "height": 768,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    "chrome.mobile-narrow": {
+      "target": "chrome.app",
+      "width": 375,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "mobile": true
     }
   }
+}
+
 }
