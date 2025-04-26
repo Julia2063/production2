@@ -6,7 +6,7 @@
   "scripts": {
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx loki test",
-    "test:ui:ci": "npx loki --requireReference --reactUri http://localhost:6006 --chromeConcurrency 1",
+    "test:ui:ci": "npx loki --requireReference --chromeConcurrency 1 --chromeLoadTimeout 60000 --chromeRetries 2 --chromeSelector '#root'",
     "test:ui:ok": "npx loki app",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
