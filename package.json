@@ -6,7 +6,7 @@
   "scripts": {
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx loki test",
-    "test:ui:ci": "npx loki --requireReference --reactUri file:./storybook-static",
+    "test:ui:ci": "npx loki --requireReference --reactUri http://localhost:6006",
     "test:ui:ok": "npx loki app",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",

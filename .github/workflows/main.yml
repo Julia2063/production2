@@ -39,6 +39,9 @@ jobs:
       - name: build storybook
         run: npm run storybook:build
 
+      - name: serve storybook
+        run: npx serve storybook-static --port 6006 &
+
       - name: screenshot testing
         run: npm run test:ui:ci
       
