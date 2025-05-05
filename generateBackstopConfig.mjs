@@ -144,6 +144,9 @@ const backstopConfig = {
         ci_report: 'backstop_data/ci_report'
     },
     engine: 'puppeteer',
+    engineOptions: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    },
     report: ['browser'],
     debug: false
 };
