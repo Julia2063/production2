@@ -1,0 +1,152 @@
+import fs from 'fs';
+
+const components = [
+    {
+        name: 'AboutPage - Dark',
+        path: '/pages-aboutpage--dark',
+    },
+    {
+        name: 'AboutPage - Normal',
+        path: '/pages-aboutpage--normal',
+    },
+
+    {
+        name: 'MainPage - Dark',
+        path: '/pages-mainpage--dark',
+    },
+    {
+        name: 'MainPage - Normal',
+        path: '/pages-mainpage--normal',
+    },
+
+    {
+        name: 'NotFoundPage - Dark',
+        path: '/pages-notfoundpage--dark',
+    },
+    {
+        name: 'NotFoundPage - Normal',
+        path: '/pages-notfoundpage--normal',
+    },
+
+    {
+        name: 'AppLink - Primary',
+        path: '/shared-applink--primary',
+    },
+    {
+        name: 'AppLink - Secondary',
+        path: '/shared-applink--secondary',
+    },
+    {
+        name: 'AppLink - Red',
+        path: '/shared-applink--red',
+    },
+    {
+        name: 'AppLink - PrimaryDark',
+        path: '/shared-applink--primary-dark',
+    },
+    {
+        name: 'AppLink - SecondaryDark',
+        path: '/shared-applink--secondary-dark',
+    },
+    {
+        name: 'AppLink - RedDark',
+        path: '/shared-applink--red-dark',
+    },
+
+    {
+        name: 'Button - Primary',
+        path: '/shared-button--primary',
+    },
+    {
+        name: 'Button - Clear',
+        path: '/shared-button--clear',
+    },
+    {
+        name: 'Button - Outline',
+        path: '/shared-button--outline',
+    },
+    {
+        name: 'Button - Outline Dark',
+        path: '/shared-button--outline-dark',
+    },
+
+    {
+        name: 'Loader - Dark',
+        path: '/shared-loader--dark',
+    },
+    {
+        name: 'Loader - Normal',
+        path: '/shared-loader--normal',
+    },
+
+    {
+        name: 'Navbar - Dark',
+        path: '/widgets-navbar--dark',
+    },
+    {
+        name: 'Navbar - Lighty',
+        path: '/widgets-navbar--lighty',
+    },
+
+    {
+        name: 'PageError - Dark',
+        path: '/widgets-pageerror--dark',
+    },
+    {
+        name: 'PageError - Lighty',
+        path: '/widgets-pageerror--prima-lighty',
+    },
+
+    {
+        name: 'Sidebar - Dark',
+        path: '/widgets-sidebar--dark',
+    },
+    {
+        name: 'Sidebar - Lighty',
+        path: '/widgets-sidebar--prima-lighty',
+    },
+    
+    {
+        name: 'ThemeSwitcher - Dark',
+        path: '/widgets-themeswitcher--dark',
+    },
+    {
+        name: 'ThemeSwitcher - Normal',
+        path: '/widgets-themeswitcher--normal',
+    },
+
+];
+
+const viewports = [
+    { label: 'desktop', width: 1366, height: 768 },
+    { label: 'mobile', width: 375, height: 667 },
+];
+
+const scenarios = components.flatMap((component) =>
+    viewports.map((viewport) => ({
+        label: `${component.name} - ${viewport.label}`,
+        url: `http://localhost:6006/iframe.html?path=/story${component.path}`,
+        selectors: ['#storybook-root'],
+        delay: 500,
+        misMatchThreshold: 0.01,
+    }))
+);
+
+const backstopConfig = {
+    id: 'storybook-visual-tests',
+    viewports,
+    scenarios,
+    paths: {
+        bitmaps_reference: 'backstop_data/bitmaps_reference',
+        bitmaps_test: 'backstop_data/bitmaps_test',
+        engine_scripts: 'backstop_data/engine_scripts',
+        html_report: 'backstop_data/html_report',
+        ci_report: 'backstop_data/ci_report'
+    },
+    engine: 'puppeteer',
+    report: ['browser'],
+    debug: false
+};
+
+fs.writeFileSync('backstop.json', JSON.stringify(backstopConfig, null, 2));
+console.log('backstop.json generated successfull');

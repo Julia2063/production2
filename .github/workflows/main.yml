@@ -36,12 +36,27 @@ jobs:
       - name: unit testing
         run: npm run test:unit
 
-      - name: build storybook
+      - name: Build Storybook
         run: npm run storybook:build
 
-      - name: serve storybook
+      - name: Serve Storybook in background
         run: npx serve storybook-static -l 6006 &
+      
+      - name: Wait for Storybook to be ready
+        uses: jakejarvis/wait-action@v0.1.0
+        with:
+          url: http://localhost:6006/iframe.html
+          timeout: 30 
 
-      - name: screenshot testing
-        run: npm run test:ui:ci
+      - name: Generate Backstop config
+        run: npm run generate:ui
+
+      - name: Visual regression tests (Backstop)
+        run: npm run test:ui
+
+      - name: Upload Backstop HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: backstop-html-report
+          path: backstop_data/html_report
       

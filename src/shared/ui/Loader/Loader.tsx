@@ -1,8 +1,13 @@
-import  "./Loader.scss";
+import { classnames } from "shared/lib/classnames/classnames";
+import "./Loader.scss";
 
-export const Loader = () => {
+interface LoaderProps {
+  static?: boolean;
+}
+
+export const Loader = ({ static: isStatic = false }: LoaderProps) => {
     return (
-        <div className="lds-ellipsis">
+        <div className={classnames('lds-ellipsis', { 'lds-ellipsis--static': isStatic })}>
             <div></div>
             <div></div>
             <div></div>

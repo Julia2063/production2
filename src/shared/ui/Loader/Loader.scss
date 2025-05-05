@@ -21,6 +21,12 @@
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
+.lds-ellipsis--static div {
+  animation: none !important;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
 .lds-ellipsis div:nth-child(1) {
   left: 8px;
   animation: lds-ellipsis1 0.6s infinite;
@@ -70,4 +76,6 @@
     transform: translate(24px, 0);
   }
 }
+
+
 

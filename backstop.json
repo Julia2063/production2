@@ -1,0 +1,497 @@
+{
+  "id": "storybook-visual-tests",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "label": "mobile",
+      "width": 375,
+      "height": 667
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "AboutPage - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AboutPage - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AboutPage - Normal - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AboutPage - Normal - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "MainPage - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "MainPage - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "MainPage - Normal - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "MainPage - Normal - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "NotFoundPage - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "NotFoundPage - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "NotFoundPage - Normal - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "NotFoundPage - Normal - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Primary - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Primary - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Secondary - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Secondary - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Red - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - Red - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - PrimaryDark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - PrimaryDark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - SecondaryDark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - SecondaryDark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - RedDark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "AppLink - RedDark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Primary - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Primary - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Clear - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Clear - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Outline - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Outline - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Outline Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Button - Outline Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Loader - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Loader - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Loader - Normal - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Loader - Normal - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Navbar - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Navbar - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Navbar - Lighty - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Navbar - Lighty - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "PageError - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "PageError - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "PageError - Lighty - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "PageError - Lighty - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Sidebar - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Sidebar - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Sidebar - Lighty - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "Sidebar - Lighty - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "ThemeSwitcher - Dark - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "ThemeSwitcher - Dark - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "ThemeSwitcher - Normal - desktop",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    },
+    {
+      "label": "ThemeSwitcher - Normal - mobile",
+      "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+      "selectors": [
+        "#storybook-root"
+      ],
+      "delay": 500,
+      "misMatchThreshold": 0.01
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "engine": "puppeteer",
+  "report": [
+    "browser"
+  ],
+  "debug": false
+}
