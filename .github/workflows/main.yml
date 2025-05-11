@@ -62,7 +62,7 @@ jobs:
           name: backstop-html-report
           path: backstop_data/html_report
 
-  deploy-backstop-report:
+    deploy-backstop-report:
     needs: pipeline
     if: always()
     runs-on: ubuntu-latest
@@ -77,10 +77,12 @@ jobs:
           name: backstop-html-report
           path: public
 
+      - name: Copy bitmaps to public
+        run: cp -r backstop_data/bitmaps_test public/bitmaps_test
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-
