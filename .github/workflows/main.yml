@@ -1,11 +1,12 @@
-
 name: linting, testing, building
 run-name: ${{ github.actor }} is linting, testing, building
+
 on:
   push: 
     branches: [main]
   pull_request:
     branches: [main]
+
 jobs:
   pipeline:
     runs-on: ubuntu-latest
@@ -21,19 +22,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: install modules
-        run: npm i
+      - name: Install dependencies
+        run: npm install
 
-      - name: build production project
+      - name: Build production project
         run: npm run build:prod
 
-      - name: linting typescript
+      - name: Lint TypeScript
         run: npm run lint:ts
 
-      - name: linting css
+      - name: Lint SCSS
         run: npm run lint:scss
 
-      - name: unit testing
+      - name: Run unit tests
         run: npm run test:unit
 
       - name: Build Storybook
@@ -41,24 +42,43 @@ jobs:
 
       - name: Serve Storybook in background
         run: npx http-server storybook-static -p 6006 &
-      
+
       - name: Wait for Storybook to be ready
         uses: jakejarvis/wait-action@v0.1.0
         with:
           url: http://localhost:6006/iframe.html
-          timeout: 30 
+          timeout: 30
 
       - name: Generate Backstop config
         run: npm run generate:ui
 
-      - name: Visual regression tests (Backstop)
+      - name: Run visual regression tests (Backstop)
         run: npm run test:ui
 
       - name: Upload Backstop HTML report
-        if: always() 
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: backstop-html-report
           path: backstop_data/html_report
 
-      
+  deploy-backstop-report:
+    needs: pipeline
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download Backstop HTML report
+        uses: actions/download-artifact@v4
+        with:
+          name: backstop-html-report
+          path: public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

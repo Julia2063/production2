@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AboutPage - Dark - desktop",
@@ -27,7 +27,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AboutPage - Dark - desktop",
@@ -50,7 +50,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AboutPage - Dark - mobile",
@@ -73,7 +73,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AboutPage - Dark - mobile",
@@ -96,7 +96,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AboutPage - Normal - desktop",
@@ -119,7 +119,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AboutPage - Normal - desktop",
@@ -142,7 +142,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AboutPage - Normal - mobile",
@@ -165,7 +165,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AboutPage - Normal - mobile",
@@ -188,7 +188,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "MainPage - Dark - desktop",
@@ -211,7 +211,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "MainPage - Dark - desktop",
@@ -234,7 +234,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "MainPage - Dark - mobile",
@@ -257,7 +257,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "MainPage - Dark - mobile",
@@ -280,7 +280,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "label": "MainPage - Normal - desktop",
@@ -303,7 +303,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "label": "MainPage - Normal - desktop",
@@ -326,7 +326,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "label": "MainPage - Normal - mobile",
@@ -349,7 +349,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "label": "MainPage - Normal - mobile",
@@ -372,7 +372,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "NotFoundPage - Dark - desktop",
@@ -395,7 +395,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "NotFoundPage - Dark - desktop",
@@ -418,7 +418,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "NotFoundPage - Dark - mobile",
@@ -441,7 +441,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "NotFoundPage - Dark - mobile",
@@ -464,7 +464,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "label": "NotFoundPage - Normal - desktop",
@@ -487,7 +487,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "label": "NotFoundPage - Normal - desktop",
@@ -510,7 +510,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "label": "NotFoundPage - Normal - mobile",
@@ -533,7 +533,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "label": "NotFoundPage - Normal - mobile",
@@ -556,7 +556,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - Primary - desktop",
@@ -579,7 +579,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - Primary - desktop",
@@ -602,7 +602,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - Primary - mobile",
@@ -625,7 +625,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - Primary - mobile",
@@ -640,9 +640,7 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.00038149737720553174,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 160
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
@@ -650,7 +648,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - Secondary - desktop",
@@ -673,7 +671,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - Secondary - desktop",
@@ -696,7 +694,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - Secondary - mobile",
@@ -719,7 +717,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - Secondary - mobile",
@@ -736,7 +734,7 @@ report({
           },
           "rawMisMatchPercentage": 0.00038149737720553174,
           "misMatchPercentage": "0.00",
-          "analysisTime": 190
+          "analysisTime": 89
         }
       },
       "status": "pass"
@@ -744,7 +742,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - Red - desktop",
@@ -767,7 +765,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - Red - desktop",
@@ -782,7 +780,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 67
         }
       },
       "status": "pass"
@@ -790,7 +790,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - Red - mobile",
@@ -813,7 +813,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - Red - mobile",
@@ -836,7 +836,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - PrimaryDark - desktop",
@@ -859,7 +859,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - PrimaryDark - desktop",
@@ -874,7 +874,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 127
         }
       },
       "status": "pass"
@@ -882,7 +884,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - PrimaryDark - mobile",
@@ -905,7 +907,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - PrimaryDark - mobile",
@@ -920,7 +922,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 155
         }
       },
       "status": "pass"
@@ -928,7 +932,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - SecondaryDark - desktop",
@@ -951,7 +955,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - SecondaryDark - desktop",
@@ -968,7 +972,7 @@ report({
           },
           "rawMisMatchPercentage": 0.00038149737720553174,
           "misMatchPercentage": "0.00",
-          "analysisTime": 214
+          "analysisTime": 255
         }
       },
       "status": "pass"
@@ -976,7 +980,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - SecondaryDark - mobile",
@@ -999,7 +1003,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - SecondaryDark - mobile",
@@ -1016,7 +1020,7 @@ report({
           },
           "rawMisMatchPercentage": 0.00038149737720553174,
           "misMatchPercentage": "0.00",
-          "analysisTime": 113
+          "analysisTime": 104
         }
       },
       "status": "pass"
@@ -1024,7 +1028,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "AppLink - RedDark - desktop",
@@ -1047,7 +1051,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "AppLink - RedDark - desktop",
@@ -1064,7 +1068,7 @@ report({
           },
           "rawMisMatchPercentage": 0.00038149737720553174,
           "misMatchPercentage": "0.00",
-          "analysisTime": 146
+          "analysisTime": 213
         }
       },
       "status": "pass"
@@ -1072,7 +1076,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "AppLink - RedDark - mobile",
@@ -1095,7 +1099,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "AppLink - RedDark - mobile",
@@ -1110,9 +1114,7 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.00038149737720553174,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 38
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
@@ -1120,7 +1122,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Button - Primary - desktop",
@@ -1143,7 +1145,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Button - Primary - desktop",
@@ -1166,7 +1168,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Button - Primary - mobile",
@@ -1189,7 +1191,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Button - Primary - mobile",
@@ -1212,7 +1214,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Button - Clear - desktop",
@@ -1235,7 +1237,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Button - Clear - desktop",
@@ -1258,7 +1260,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Button - Clear - mobile",
@@ -1281,7 +1283,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Button - Clear - mobile",
@@ -1304,7 +1306,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Button - Outline - desktop",
@@ -1327,7 +1329,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Button - Outline - desktop",
@@ -1350,7 +1352,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Button - Outline - mobile",
@@ -1373,7 +1375,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Button - Outline - mobile",
@@ -1396,7 +1398,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Button - Outline Dark - desktop",
@@ -1419,7 +1421,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Button - Outline Dark - desktop",
@@ -1442,7 +1444,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Button - Outline Dark - mobile",
@@ -1465,7 +1467,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Button - Outline Dark - mobile",
@@ -1488,7 +1490,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Loader - Dark - desktop",
@@ -1511,7 +1513,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Loader - Dark - desktop",
@@ -1534,7 +1536,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Loader - Dark - mobile",
@@ -1557,7 +1559,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Loader - Dark - mobile",
@@ -1574,7 +1576,7 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 112
+          "analysisTime": 10
         }
       },
       "status": "pass"
@@ -1582,7 +1584,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Loader - Normal - desktop",
@@ -1605,7 +1607,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Loader - Normal - desktop",
@@ -1628,7 +1630,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Loader - Normal - mobile",
@@ -1651,7 +1653,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Loader - Normal - mobile",
@@ -1668,7 +1670,7 @@ report({
           },
           "rawMisMatchPercentage": 0.003051979017644254,
           "misMatchPercentage": "0.00",
-          "analysisTime": 8
+          "analysisTime": 10
         }
       },
       "status": "pass"
@@ -1676,7 +1678,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Navbar - Dark - desktop",
@@ -1699,7 +1701,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Navbar - Dark - desktop",
@@ -1722,7 +1724,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Navbar - Dark - mobile",
@@ -1745,7 +1747,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Navbar - Dark - mobile",
@@ -1768,7 +1770,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Navbar - Lighty - desktop",
@@ -1791,7 +1793,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Navbar - Lighty - desktop",
@@ -1814,7 +1816,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Navbar - Lighty - mobile",
@@ -1837,7 +1839,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Navbar - Lighty - mobile",
@@ -1860,7 +1862,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "PageError - Dark - desktop",
@@ -1883,7 +1885,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "PageError - Dark - desktop",
@@ -1906,7 +1908,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "PageError - Dark - mobile",
@@ -1929,7 +1931,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "PageError - Dark - mobile",
@@ -1952,7 +1954,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "label": "PageError - Lighty - desktop",
@@ -1975,7 +1977,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "label": "PageError - Lighty - desktop",
@@ -1998,7 +2000,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "label": "PageError - Lighty - mobile",
@@ -2021,7 +2023,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "label": "PageError - Lighty - mobile",
@@ -2044,7 +2046,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Sidebar - Dark - desktop",
@@ -2067,7 +2069,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Sidebar - Dark - desktop",
@@ -2090,7 +2092,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Sidebar - Dark - mobile",
@@ -2113,7 +2115,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Sidebar - Dark - mobile",
@@ -2136,7 +2138,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
         "label": "Sidebar - Lighty - desktop",
@@ -2159,7 +2161,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
         "label": "Sidebar - Lighty - desktop",
@@ -2174,7 +2176,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 8
         }
       },
       "status": "pass"
@@ -2182,7 +2186,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
         "label": "Sidebar - Lighty - mobile",
@@ -2205,7 +2209,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
         "label": "Sidebar - Lighty - mobile",
@@ -2222,7 +2226,7 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 6
+          "analysisTime": 8
         }
       },
       "status": "pass"
@@ -2230,7 +2234,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
         "label": "ThemeSwitcher - Dark - desktop",
@@ -2253,7 +2257,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
         "label": "ThemeSwitcher - Dark - desktop",
@@ -2276,7 +2280,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
         "label": "ThemeSwitcher - Dark - mobile",
@@ -2299,7 +2303,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
         "label": "ThemeSwitcher - Dark - mobile",
@@ -2322,7 +2326,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
         "label": "ThemeSwitcher - Normal - desktop",
@@ -2345,7 +2349,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
         "label": "ThemeSwitcher - Normal - desktop",
@@ -2368,7 +2372,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
         "label": "ThemeSwitcher - Normal - mobile",
@@ -2391,7 +2395,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
-        "test": "../bitmaps_test/20250511-142741/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250511-142407/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "selector": "#storybook-root",
         "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
         "label": "ThemeSwitcher - Normal - mobile",
@@ -2413,4 +2417,4 @@ report({
     }
   ],
   "id": "storybook-visual-tests"
-});
+}
