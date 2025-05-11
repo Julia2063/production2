@@ -68,7 +68,7 @@ jobs:
           name: backstop-bitmaps
           path: backstop_data/bitmaps_test
 
-    deploy-backstop-report:
+  deploy-backstop-report:
     needs: pipeline
     if: always()
     runs-on: ubuntu-latest
