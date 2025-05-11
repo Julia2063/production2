@@ -1,8 +1,7 @@
 name: linting, testing, building
-run-name: ${{ github.actor }} is linting, testing, building
 
 on:
-  push: 
+  push:
     branches: [main]
   pull_request:
     branches: [main]
@@ -62,7 +61,14 @@ jobs:
           name: backstop-html-report
           path: backstop_data/html_report
 
-    deploy-backstop-report:
+      - name: Upload Backstop bitmaps
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backstop-bitmaps
+          path: backstop_data/bitmaps_test
+
+  deploy-backstop-report:
     needs: pipeline
     if: always()
     runs-on: ubuntu-latest
@@ -77,8 +83,11 @@ jobs:
           name: backstop-html-report
           path: public
 
-      - name: Copy bitmaps to public
-        run: cp -r backstop_data/bitmaps_test public/bitmaps_test
+      - name: Download Backstop bitmaps
+        uses: actions/download-artifact@v4
+        with:
+          name: backstop-bitmaps
+          path: public/bitmaps_test
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
