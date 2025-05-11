@@ -125,9 +125,11 @@ const viewports = [
 const scenarios = components.flatMap((component) =>
     viewports.map((viewport) => ({
         label: `${component.name} - ${viewport.label}`,
-        url: `http://localhost:6006/iframe.html?path=/story${component.path}`,
+        url: 
+        `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`,
+
         selectors: ['#storybook-root'],
-        delay: 500,
+        delay: 1000,
         misMatchThreshold: 0.01,
     }))
 );
