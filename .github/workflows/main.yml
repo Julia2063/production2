@@ -81,4 +81,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public/html_report
+          publish_branch: gh-pages
+          publish_dir: ./public
+
