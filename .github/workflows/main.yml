@@ -54,22 +54,21 @@ jobs:
       - name: Run visual regression tests (Backstop)
         run: npm run test:ui
 
-      - name: Copy bitmaps into HTML report folder
+      - name: Prepare Backstop report for deploy
         run: |
-          cp -r backstop_data/bitmaps_test backstop_data/html_report/
-          cp -r backstop_data/bitmaps_reference backstop_data/html_report/
+          mkdir public
+          cp -r backstop_data/html_report/* public/
+          cp -r backstop_data/bitmaps_test public/
+          cp -r backstop_data/bitmaps_reference public/
+          sed -i 's|\.\./bitmaps_test/|bitmaps_test/|g' public/config.js
+          sed -i 's|\.\./bitmaps_reference/|bitmaps_reference/|g' public/config.js
 
-      - name: Fix image paths in config.js
-        run: |
-          sed -i 's|../bitmaps_test/|bitmaps_test/|g' backstop_data/html_report/config.js
-          sed -i 's|../bitmaps_reference/|bitmaps_reference/|g' backstop_data/html_report/config.js
-
-      - name: Upload Backstop HTML report
+      - name: Upload prepared Backstop report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: backstop-html-report
-          path: backstop_data/html_report
+          path: public
 
   deploy-backstop-report:
     needs: pipeline
@@ -77,8 +76,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Download Backstop HTML report
         uses: actions/download-artifact@v4
