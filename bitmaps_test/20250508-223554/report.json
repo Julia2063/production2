@@ -1,0 +1,2406 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AboutPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AboutPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AboutPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AboutPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AboutPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AboutPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AboutPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AboutPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AboutPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-aboutpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "MainPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "MainPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 84
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "MainPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "MainPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "MainPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "MainPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "MainPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_MainPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "MainPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-mainpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "NotFoundPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "NotFoundPage - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "NotFoundPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "NotFoundPage - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "NotFoundPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "NotFoundPage - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "NotFoundPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_NotFoundPage_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "NotFoundPage - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/pages-notfoundpage--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Primary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Primary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Primary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Primary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Secondary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Secondary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Secondary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Secondary_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Secondary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Red - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Red_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Red - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - Red - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_Red_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - Red - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - PrimaryDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - PrimaryDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - PrimaryDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_PrimaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - PrimaryDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--primary-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - SecondaryDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - SecondaryDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - SecondaryDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_SecondaryDark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - SecondaryDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--secondary-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 198
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "AppLink - RedDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "AppLink - RedDark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 13
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "AppLink - RedDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_AppLink_-_RedDark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "AppLink - RedDark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-applink--red-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.00038149737720553174,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 137
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Button - Primary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Primary_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Button - Primary - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Button - Primary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Primary_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Button - Primary - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--primary",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Button - Clear - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Clear_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Button - Clear - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Button - Clear - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Clear_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Button - Clear - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--clear",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Button - Outline - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Button - Outline - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Button - Outline - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Button - Outline - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Button - Outline Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Button - Outline Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Button - Outline Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Button_-_Outline_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Button - Outline Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-button--outline-dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Loader - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Loader - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Loader - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Loader - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Loader - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Loader - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Loader - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Loader_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Loader - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/shared-loader--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Navbar - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Navbar - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Navbar - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Navbar - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Navbar - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Navbar - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Navbar - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Navbar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Navbar - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-navbar--lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "PageError - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "PageError - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "PageError - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "PageError - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "PageError - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "PageError - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "PageError - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_PageError_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "PageError - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-pageerror--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Sidebar - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Sidebar - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Sidebar - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Sidebar - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "Sidebar - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "Sidebar - Lighty - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "Sidebar - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_Sidebar_-_Lighty_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "Sidebar - Lighty - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-sidebar--prima-lighty",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "ThemeSwitcher - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "ThemeSwitcher - Dark - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "ThemeSwitcher - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Dark_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "ThemeSwitcher - Dark - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--dark",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_0_desktop.png",
+        "label": "ThemeSwitcher - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_desktop_0_storybook-root_1_mobile.png",
+        "label": "ThemeSwitcher - Normal - desktop",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_0_desktop.png",
+        "label": "ThemeSwitcher - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "test": "../bitmaps_test/20250508-223554/storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "selector": "#storybook-root",
+        "fileName": "storybook-visual-tests_ThemeSwitcher_-_Normal_-_mobile_0_storybook-root_1_mobile.png",
+        "label": "ThemeSwitcher - Normal - mobile",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.01,
+        "url": "http://localhost:6006/iframe.html?path=/story/widgets-themeswitcher--normal",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "storybook-visual-tests"
+}
