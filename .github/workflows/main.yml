@@ -54,39 +54,19 @@ jobs:
       - name: Run visual regression tests (Backstop)
         run: npm run test:ui
 
-      - name: Prepare Backstop report for deploy
+      - name: Prepare Backstop report for download
+        if: always()
         run: |
-          mkdir public
+          mkdir -p public
           cp -r backstop_data/html_report/* public/
           cp -r backstop_data/bitmaps_test public/
           cp -r backstop_data/bitmaps_reference public/
-          sed -i 's|\.\./bitmaps_test/|bitmaps_test/|g' public/config.js
-          sed -i 's|\.\./bitmaps_reference/|bitmaps_reference/|g' public/config.js
+          sed -i 's|\.\./bitmaps_test/|bitmaps_test/|g' public/config.js || true
+          sed -i 's|\.\./bitmaps_reference/|bitmaps_reference/|g' public/config.js || true
 
-      - name: Upload prepared Backstop report
+      - name: Upload Backstop report as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: backstop-html-report
+          name: backstop-report
           path: public
-
-  deploy-backstop-report:
-    needs: pipeline
-    if: always()
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Download Backstop HTML report
-        uses: actions/download-artifact@v4
-        with:
-          name: backstop-html-report
-          path: public
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
