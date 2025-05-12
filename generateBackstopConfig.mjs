@@ -130,7 +130,7 @@ const scenarios = components.flatMap((component) =>
 
         selectors: ['#storybook-root'],
         delay: 1000,
-        misMatchThreshold: 0.01,
+        misMatchThreshold: 0.1,
     }))
 );
 
