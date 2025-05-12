@@ -151,7 +151,8 @@ const backstopConfig = {
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     },
     report: ['browser'],
-    debug: false
+    debug: false,
+    "onReadyScript": "backstop_data/engine_scripts/onReady.cjs",
 };
 
 fs.writeFileSync('backstop.json', JSON.stringify(backstopConfig, null, 2));
