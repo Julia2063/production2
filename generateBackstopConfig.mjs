@@ -118,8 +118,8 @@ const components = [
 ];
 
 const viewports = [
-    { label: 'desktop', width: 1366, height: 768 },
-    { label: 'mobile', width: 375, height: 667 },
+    { label: 'desktop', width: 1366, height: 768, deviceScaleFactor: 1 },
+    { label: 'mobile', width: 375, height: 667, deviceScaleFactor: 2 },
 ];
 
 const scenarios = components.flatMap((component) =>
@@ -149,9 +149,6 @@ const backstopConfig = {
     engine: 'puppeteer',
     engineOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        defaultViewport: {
-            deviceScaleFactor: 2 
-        }
     },
     report: ['browser'],
     debug: false,
