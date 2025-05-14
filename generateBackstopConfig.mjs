@@ -148,7 +148,10 @@ const backstopConfig = {
     },
     engine: 'puppeteer',
     engineOptions: {
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        defaultViewport: {
+            deviceScaleFactor: 2 
+        }
     },
     report: ['browser'],
     debug: false,
