@@ -3,13 +3,11 @@
 module.exports = async (page, scenario) => {
     console.log('Running onReady.js');
 
-    // Сброс скролла
     await page.evaluate(() => {
         document.body.style.overflow = 'hidden';
         window.scrollTo(0, 0);
     });
 
-    // Фиксация стилей, шрифта и сглаживания
     await page.evaluate(() => {
         const style = document.createElement('style');
         style.innerHTML = `

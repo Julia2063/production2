@@ -123,16 +123,19 @@ const viewports = [
 ];
 
 const scenarios = components.flatMap((component) =>
-    viewports.map((viewport) => ({
-        label: `${component.name} - ${viewport.label}`,
-        url: 
+    viewports.map((viewport) => {
+        const threshold = viewport.label === 'mobile' ? 0.3 : 0.2;
+
+        return {
+            label: `${component.name} - ${viewport.label}`,
+            url: 
         `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`,
 
-        selectors: ['#storybook-root'],
-        delay: 1500,
-        misMatchThreshold: viewport.label === 'mobile' ? 0.4 : 0.2,
-        requireSameDimensions: false,
-    }))
+            selectors: ['#storybook-root'],
+            delay: 1500,
+            misMatchThreshold: threshold,
+            requireSameDimensions: false,
+        }})
 );
 
 const backstopConfig = {
