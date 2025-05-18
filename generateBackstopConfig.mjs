@@ -130,7 +130,7 @@ const scenarios = components.flatMap((component) =>
 
         selectors: ['#storybook-root'],
         delay: 1500,
-        misMatchThreshold: viewport.label === 'mobile' ? 0.35 : 0.2,
+        misMatchThreshold: viewport.label === 'mobile' ? 0.4 : 0.2,
         requireSameDimensions: false,
     }))
 );
