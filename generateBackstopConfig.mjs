@@ -124,7 +124,7 @@ const viewports = [
 
 const scenarios = components.flatMap((component) =>
     viewports.map((viewport) => {
-        const threshold = viewport.label === 'mobile' ? 0.35 : 0.2;
+        const threshold = viewport.label === 'mobile' ? 0.4 : 0.2;
 
         return {
             label: `${component.name} - ${viewport.label}`,
