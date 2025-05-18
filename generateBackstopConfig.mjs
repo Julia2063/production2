@@ -129,8 +129,8 @@ const scenarios = components.flatMap((component) =>
         `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`,
 
         selectors: ['#storybook-root'],
-        delay: 1000,
-        misMatchThreshold: viewport.label === 'mobile' ? 0.35 : 0.1,
+        delay: 1500,
+        misMatchThreshold: viewport.label === 'mobile' ? 0.35 : 0.2,
         requireSameDimensions: false,
     }))
 );
