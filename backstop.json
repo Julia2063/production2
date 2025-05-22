@@ -295,5 +295,5 @@
     "browser"
   ],
   "debug": false,
-  "onReadyScript": "backstop_data/engine_scripts/onReady.cjs"
+  "onReadyScript": "onReady.cjs"
 }

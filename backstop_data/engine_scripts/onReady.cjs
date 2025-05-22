@@ -1,4 +1,3 @@
- 
 // eslint-disable-next-line no-undef
 module.exports = async (page, scenario) => {
     console.log('Running onReady.js');
@@ -12,19 +11,15 @@ module.exports = async (page, scenario) => {
         const style = document.createElement('style');
         style.innerHTML = `
       *, *::before, *::after {
-        transition: none !important;
-        animation: none !important;
-        caret-color: transparent !important;
-        font-family: Arial, sans-serif !important;
-        font-kerning: none !important;
-        letter-spacing: 0 !important;
+        line-height: 1 !important;
+        text-rendering: geometricPrecision !important;
         -webkit-font-smoothing: antialiased !important;
         -moz-osx-font-smoothing: grayscale !important;
       }
 
       html, body {
-        zoom: 1 !important;
-        text-rendering: optimizeLegibility !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
 
       #storybook-root {
@@ -35,4 +30,3 @@ module.exports = async (page, scenario) => {
         document.head.appendChild(style);
     });
 };
-

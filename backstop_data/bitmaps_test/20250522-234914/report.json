@@ -1,4 +1,4 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
@@ -1207,4 +1207,4 @@ report({
     }
   ],
   "id": "storybook-visual-tests"
-});
+}
