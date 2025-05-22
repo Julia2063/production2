@@ -74,7 +74,7 @@ const backstopConfig = {
     },
     report: ['browser'],
     debug: false,
-    onReadyScript: 'engine_scripts/onReady.cjs',
+    onReadyScript: 'onReady.cjs',
 };
 
 fs.writeFileSync('backstop.json', JSON.stringify(backstopConfig, null, 2));
