@@ -1,39 +1,120 @@
 import fs from 'fs';
 
 const components = [
-    { name: 'AboutPage', path: '/pages-aboutpage--dark', theme: 'Dark' },
-    { name: 'AboutPage', path: '/pages-aboutpage--normal', theme: 'Normal' },
-    { name: 'MainPage', path: '/pages-mainpage--dark', theme: 'Dark' },
-    { name: 'MainPage', path: '/pages-mainpage--normal', theme: 'Normal' },
-    { name: 'NotFoundPage', path: '/pages-notfoundpage--dark', theme: 'Dark' },
-    { name: 'NotFoundPage', path: '/pages-notfoundpage--normal', theme: 'Normal' },
+    {
+        name: 'AboutPage - Dark',
+        path: '/pages-aboutpage--dark',
+    },
+    {
+        name: 'AboutPage - Normal',
+        path: '/pages-aboutpage--normal',
+    },
 
-    { name: 'AppLink', path: '/shared-applink--primary', theme: 'Primary' },
-    { name: 'AppLink', path: '/shared-applink--secondary', theme: 'Secondary' },
-    { name: 'AppLink', path: '/shared-applink--red', theme: 'Red' },
-    { name: 'AppLink', path: '/shared-applink--primary-dark', theme: 'PrimaryDark' },
-    { name: 'AppLink', path: '/shared-applink--secondary-dark', theme: 'SecondaryDark' },
-    { name: 'AppLink', path: '/shared-applink--red-dark', theme: 'RedDark' },
+    {
+        name: 'MainPage - Dark',
+        path: '/pages-mainpage--dark',
+    },
+    {
+        name: 'MainPage - Normal',
+        path: '/pages-mainpage--normal',
+    },
 
-    { name: 'Button', path: '/shared-button--primary', theme: 'Primary' },
-    { name: 'Button', path: '/shared-button--clear', theme: 'Clear' },
-    { name: 'Button', path: '/shared-button--outline', theme: 'Outline' },
-    { name: 'Button', path: '/shared-button--outline-dark', theme: 'OutlineDark' },
+    {
+        name: 'NotFoundPage - Dark',
+        path: '/pages-notfoundpage--dark',
+    },
+    {
+        name: 'NotFoundPage - Normal',
+        path: '/pages-notfoundpage--normal',
+    },
 
-    { name: 'Loader', path: '/shared-loader--dark', theme: 'Dark' },
-    { name: 'Loader', path: '/shared-loader--normal', theme: 'Normal' },
+    {
+        name: 'AppLink - Primary',
+        path: '/shared-applink--primary',
+    },
+    {
+        name: 'AppLink - Secondary',
+        path: '/shared-applink--secondary',
+    },
+    {
+        name: 'AppLink - Red',
+        path: '/shared-applink--red',
+    },
+    {
+        name: 'AppLink - PrimaryDark',
+        path: '/shared-applink--primary-dark',
+    },
+    {
+        name: 'AppLink - SecondaryDark',
+        path: '/shared-applink--secondary-dark',
+    },
+    {
+        name: 'AppLink - RedDark',
+        path: '/shared-applink--red-dark',
+    },
 
-    { name: 'Navbar', path: '/widgets-navbar--dark', theme: 'Dark' },
-    { name: 'Navbar', path: '/widgets-navbar--lighty', theme: 'Lighty' },
+    {
+        name: 'Button - Primary',
+        path: '/shared-button--primary',
+    },
+    {
+        name: 'Button - Clear',
+        path: '/shared-button--clear',
+    },
+    {
+        name: 'Button - Outline',
+        path: '/shared-button--outline',
+    },
+    {
+        name: 'Button - Outline Dark',
+        path: '/shared-button--outline-dark',
+    },
 
-    { name: 'PageError', path: '/widgets-pageerror--dark', theme: 'Dark' },
-    { name: 'PageError', path: '/widgets-pageerror--prima-lighty', theme: 'Lighty' },
+    {
+        name: 'Loader - Dark',
+        path: '/shared-loader--dark',
+    },
+    {
+        name: 'Loader - Normal',
+        path: '/shared-loader--normal',
+    },
 
-    { name: 'Sidebar', path: '/widgets-sidebar--dark', theme: 'Dark' },
-    { name: 'Sidebar', path: '/widgets-sidebar--prima-lighty', theme: 'Lighty' },
+    {
+        name: 'Navbar - Dark',
+        path: '/widgets-navbar--dark',
+    },
+    {
+        name: 'Navbar - Lighty',
+        path: '/widgets-navbar--lighty',
+    },
 
-    { name: 'ThemeSwitcher', path: '/widgets-themeswitcher--dark', theme: 'Dark' },
-    { name: 'ThemeSwitcher', path: '/widgets-themeswitcher--normal', theme: 'Normal' },
+    {
+        name: 'PageError - Dark',
+        path: '/widgets-pageerror--dark',
+    },
+    {
+        name: 'PageError - Lighty',
+        path: '/widgets-pageerror--prima-lighty',
+    },
+
+    {
+        name: 'Sidebar - Dark',
+        path: '/widgets-sidebar--dark',
+    },
+    {
+        name: 'Sidebar - Lighty',
+        path: '/widgets-sidebar--prima-lighty',
+    },
+    
+    {
+        name: 'ThemeSwitcher - Dark',
+        path: '/widgets-themeswitcher--dark',
+    },
+    {
+        name: 'ThemeSwitcher - Normal',
+        path: '/widgets-themeswitcher--normal',
+    },
+
 ];
 
 const viewports = [
@@ -43,35 +124,30 @@ const viewports = [
 
 const scenarios = components.flatMap((component) =>
     viewports.map((viewport) => {
-        const threshold = viewport.label === 'mobile' ? 0.4 : 0.2;
-
-        const label = `${component.name} - ${component.theme} - ${viewport.label}`;
-
-        console.log(`→ ${label} | threshold: ${threshold}`);
+        const threshold = viewport.label === 'mobile' ? 0.35 : 0.2;
 
         return {
-            label,
-            url: `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`,
+            label: `${component.name} - ${viewport.label}`,
+            url: 
+        `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`,
+
             selectors: ['#storybook-root'],
             delay: 1500,
             misMatchThreshold: threshold,
             requireSameDimensions: false,
-        };
-    })
+        }})
 );
 
 const backstopConfig = {
     id: 'storybook-visual-tests',
     viewports,
     scenarios,
-    fileNameTemplate: '{scenarioLabel}_{viewportLabel}_{selectorIndex}',
-
     paths: {
         bitmaps_reference: 'backstop_data/bitmaps_reference',
         bitmaps_test: 'backstop_data/bitmaps_test',
         engine_scripts: 'backstop_data/engine_scripts',
         html_report: 'backstop_data/html_report',
-        ci_report: 'backstop_data/ci_report',
+        ci_report: 'backstop_data/ci_report'
     },
     engine: 'puppeteer',
     engineOptions: {
@@ -79,8 +155,8 @@ const backstopConfig = {
     },
     report: ['browser'],
     debug: false,
-    onReadyScript: 'backstop_data/engine_scripts/onReady.cjs',
+    "onReadyScript": "backstop_data/engine_scripts/onReady.cjs",
 };
 
 fs.writeFileSync('backstop.json', JSON.stringify(backstopConfig, null, 2));
-console.log('✅ backstop.json generated successfully');
+console.log('backstop.json generated successfull');
