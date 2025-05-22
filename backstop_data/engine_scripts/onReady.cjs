@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = async (page, scenario) => {
-    console.log('✅ Running refined onReady.js with button alignment fix');
+    console.log('✅ Running adjusted onReady.js for vertical alignment fix');
 
     await page.evaluate(() => {
         document.body.style.overflow = 'hidden';
@@ -11,7 +11,6 @@ module.exports = async (page, scenario) => {
         const style = document.createElement('style');
         style.innerHTML = `
         *, *::before, *::after {
-          line-height: 1.25 !important;
           text-rendering: geometricPrecision !important;
           -webkit-font-smoothing: antialiased !important;
           -moz-osx-font-smoothing: grayscale !important;
@@ -20,6 +19,7 @@ module.exports = async (page, scenario) => {
         html, body {
           margin: 0 !important;
           padding: 0 !important;
+          line-height: 1 !important;
         }
 
         #storybook-root {
@@ -27,13 +27,11 @@ module.exports = async (page, scenario) => {
           padding: 0 !important;
         }
 
-        /* Key elements that often suffer vertical misalignment */
-        button, a, .txt14x21, .txt16x24, .title, .link {
-          line-height: 1.25 !important;
-          vertical-align: middle !important;
-          display: inline-flex !important;
-          align-items: center !important;
-          justify-content: center !important;
+        a, span, p, h1, h2, h3, h4, h5, h6, button {
+          margin: 0 !important;
+          padding: 0 !important;
+          line-height: 1 !important;
+          transform: translateY(0.5px) !important;
         }
       `;
         document.head.appendChild(style);
