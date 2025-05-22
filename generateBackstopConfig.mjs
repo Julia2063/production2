@@ -51,7 +51,7 @@ const scenarios = components.map((component) => {
         url,
         selectors: ['#storybook-root'],
         delay: 1500,
-        misMatchThreshold: 0.2, 
+        misMatchThreshold: 0.1, 
         requireSameDimensions: false,
     };
 });
@@ -74,7 +74,7 @@ const backstopConfig = {
     },
     report: ['browser'],
     debug: false,
-    onReadyScript: 'backstop_data/engine_scripts/onReady.cjs',
+    onReadyScript: 'engine_scripts/onReady.cjs',
 };
 
 fs.writeFileSync('backstop.json', JSON.stringify(backstopConfig, null, 2));
