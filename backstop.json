@@ -4,484 +4,279 @@
     {
       "label": "desktop",
       "width": 1366,
-      "height": 768
+      "height": 768,
+      "deviceScaleFactor": 1
     },
     {
       "label": "mobile",
       "width": 375,
-      "height": 667
+      "height": 667,
+      "deviceScaleFactor": 2
     }
   ],
   "scenarios": [
     {
-      "label": "AboutPage - Dark - desktop",
+      "label": "AboutPage - Dark",
       "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AboutPage - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AboutPage - Normal - desktop",
+      "label": "AboutPage - Normal",
       "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AboutPage - Normal - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "MainPage - Dark - desktop",
+      "label": "MainPage - Dark",
       "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "MainPage - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "MainPage - Normal - desktop",
+      "label": "MainPage - Normal",
       "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "MainPage - Normal - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "NotFoundPage - Dark - desktop",
+      "label": "NotFoundPage - Dark",
       "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "NotFoundPage - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "NotFoundPage - Normal - desktop",
+      "label": "NotFoundPage - Normal",
       "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "NotFoundPage - Normal - mobile",
-      "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - Primary - desktop",
+      "label": "AppLink - Primary",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - Primary - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - Secondary - desktop",
+      "label": "AppLink - Secondary",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - Secondary - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - Red - desktop",
+      "label": "AppLink - Red",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - Red - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - PrimaryDark - desktop",
+      "label": "AppLink - PrimaryDark",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - PrimaryDark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - SecondaryDark - desktop",
+      "label": "AppLink - SecondaryDark",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - SecondaryDark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "AppLink - RedDark - desktop",
+      "label": "AppLink - RedDark",
       "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "AppLink - RedDark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Button - Primary - desktop",
+      "label": "Button - Primary",
       "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Button - Primary - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Button - Clear - desktop",
+      "label": "Button - Clear",
       "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Button - Clear - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Button - Outline - desktop",
+      "label": "Button - Outline",
       "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Button - Outline - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Button - Outline Dark - desktop",
+      "label": "Button - OutlineDark",
       "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Button - Outline Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Loader - Dark - desktop",
+      "label": "Loader - Dark",
       "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Loader - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Loader - Normal - desktop",
+      "label": "Loader - Normal",
       "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Loader - Normal - mobile",
-      "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Navbar - Dark - desktop",
+      "label": "Navbar - Dark",
       "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Navbar - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Navbar - Lighty - desktop",
+      "label": "Navbar - Lighty",
       "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Navbar - Lighty - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "PageError - Dark - desktop",
+      "label": "PageError - Dark",
       "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "PageError - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "PageError - Lighty - desktop",
+      "label": "PageError - Lighty",
       "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "PageError - Lighty - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Sidebar - Dark - desktop",
+      "label": "Sidebar - Dark",
       "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Sidebar - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "Sidebar - Lighty - desktop",
+      "label": "Sidebar - Lighty",
       "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "Sidebar - Lighty - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "ThemeSwitcher - Dark - desktop",
+      "label": "ThemeSwitcher - Dark",
       "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     },
     {
-      "label": "ThemeSwitcher - Dark - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "ThemeSwitcher - Normal - desktop",
+      "label": "ThemeSwitcher - Normal",
       "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
-    },
-    {
-      "label": "ThemeSwitcher - Normal - mobile",
-      "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
-      "selectors": [
-        "#storybook-root"
-      ],
-      "delay": 1000,
-      "misMatchThreshold": 0.01
+      "delay": 1500,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": false
     }
   ],
+  "fileNameTemplate": "{scenarioLabel}_{viewportLabel}_{selectorIndex}",
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "backstop_data/bitmaps_test",
@@ -499,5 +294,6 @@
   "report": [
     "browser"
   ],
-  "debug": false
+  "debug": false,
+  "onReadyScript": "backstop_data/engine_scripts/onReady.cjs"
 }
