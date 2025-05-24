@@ -52,7 +52,7 @@ jobs:
         run: npm run generate:ui
 
       - name: Run visual regression tests (Backstop)
-        run: npm run test:ui
+        run: npm run test:ui:ci
 
       - name: Prepare Backstop report for download
         if: always()
