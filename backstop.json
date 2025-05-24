@@ -22,7 +22,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -32,7 +32,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -42,7 +42,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -52,7 +52,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -62,7 +62,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -72,7 +72,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -82,7 +82,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -92,7 +92,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -102,7 +102,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -112,7 +112,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -122,7 +122,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -132,7 +132,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -142,7 +142,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -152,7 +152,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -162,7 +162,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -172,7 +172,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -182,7 +182,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -192,7 +192,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -202,7 +202,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -212,7 +212,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -222,7 +222,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -232,7 +232,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -242,7 +242,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -252,7 +252,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -262,7 +262,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
     {
@@ -272,7 +272,7 @@
         "#storybook-root"
       ],
       "delay": 1500,
-      "misMatchThreshold": 0.1,
+      "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     }
   ],
@@ -291,6 +291,9 @@
       "--disable-setuid-sandbox"
     ]
   },
+  "asyncCaptureLimit": 2,
+  "asyncCompareLimit": 50,
+  "debugWindow": false,
   "report": [
     "browser"
   ],

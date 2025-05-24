@@ -1,15 +1,15 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../bitmaps_reference/AboutPage_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AboutPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AboutPage_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AboutPage_-_Dark_desktop_0.png",
         "label": "AboutPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -27,12 +27,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AboutPage_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AboutPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AboutPage_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AboutPage_-_Dark_mobile_0.png",
         "label": "AboutPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -50,12 +50,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AboutPage_-_Normal_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AboutPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AboutPage_-_Normal_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AboutPage_-_Normal_desktop_0.png",
         "label": "AboutPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -73,12 +73,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AboutPage_-_Normal_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AboutPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AboutPage_-_Normal_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AboutPage_-_Normal_mobile_0.png",
         "label": "AboutPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -96,12 +96,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MainPage_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/MainPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/MainPage_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "MainPage_-_Dark_desktop_0.png",
         "label": "MainPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -119,12 +119,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MainPage_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/MainPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/MainPage_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "MainPage_-_Dark_mobile_0.png",
         "label": "MainPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -142,12 +142,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MainPage_-_Normal_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/MainPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/MainPage_-_Normal_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "MainPage_-_Normal_desktop_0.png",
         "label": "MainPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -165,12 +165,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/MainPage_-_Normal_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/MainPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/MainPage_-_Normal_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "MainPage_-_Normal_mobile_0.png",
         "label": "MainPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -188,12 +188,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/NotFoundPage_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/NotFoundPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/NotFoundPage_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "NotFoundPage_-_Dark_desktop_0.png",
         "label": "NotFoundPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -211,12 +211,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/NotFoundPage_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/NotFoundPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/NotFoundPage_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "NotFoundPage_-_Dark_mobile_0.png",
         "label": "NotFoundPage - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -234,12 +234,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/NotFoundPage_-_Normal_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/NotFoundPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/NotFoundPage_-_Normal_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "NotFoundPage_-_Normal_desktop_0.png",
         "label": "NotFoundPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -257,12 +257,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/NotFoundPage_-_Normal_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/NotFoundPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/NotFoundPage_-_Normal_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "NotFoundPage_-_Normal_mobile_0.png",
         "label": "NotFoundPage - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -280,12 +280,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Primary_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Primary_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Primary_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Primary_desktop_0.png",
         "label": "AppLink - Primary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -303,12 +303,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Primary_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Primary_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Primary_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Primary_mobile_0.png",
         "label": "AppLink - Primary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -326,12 +326,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Secondary_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Secondary_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Secondary_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Secondary_desktop_0.png",
         "label": "AppLink - Secondary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -349,12 +349,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Secondary_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Secondary_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Secondary_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Secondary_mobile_0.png",
         "label": "AppLink - Secondary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -372,12 +372,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Red_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Red_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Red_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Red_desktop_0.png",
         "label": "AppLink - Red",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -387,23 +387,20 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.02154252074182528,
-          "misMatchPercentage": "0.02",
-          "analysisTime": 42
-        },
-        "diffImage": "../bitmaps_test/20250525-003614/failed_diff_AppLink_-_Red_desktop_0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_Red_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_Red_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_Red_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_Red_mobile_0.png",
         "label": "AppLink - Red",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -413,23 +410,20 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.09035482258870564,
-          "misMatchPercentage": "0.09",
-          "analysisTime": 40
-        },
-        "diffImage": "../bitmaps_test/20250525-003614/failed_diff_AppLink_-_Red_mobile_0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_PrimaryDark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_PrimaryDark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_PrimaryDark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_PrimaryDark_desktop_0.png",
         "label": "AppLink - PrimaryDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -447,12 +441,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_PrimaryDark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_PrimaryDark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_PrimaryDark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_PrimaryDark_mobile_0.png",
         "label": "AppLink - PrimaryDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -470,12 +464,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_SecondaryDark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_SecondaryDark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_SecondaryDark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_SecondaryDark_desktop_0.png",
         "label": "AppLink - SecondaryDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -493,12 +487,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_SecondaryDark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_SecondaryDark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_SecondaryDark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_SecondaryDark_mobile_0.png",
         "label": "AppLink - SecondaryDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -516,12 +510,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_RedDark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_RedDark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_RedDark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_RedDark_desktop_0.png",
         "label": "AppLink - RedDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -531,23 +525,20 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.02154252074182528,
-          "misMatchPercentage": "0.02",
-          "analysisTime": 19
-        },
-        "diffImage": "../bitmaps_test/20250525-003614/failed_diff_AppLink_-_RedDark_desktop_0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/AppLink_-_RedDark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/AppLink_-_RedDark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/AppLink_-_RedDark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "AppLink_-_RedDark_mobile_0.png",
         "label": "AppLink - RedDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -557,23 +548,20 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.09035482258870564,
-          "misMatchPercentage": "0.09",
-          "analysisTime": 32
-        },
-        "diffImage": "../bitmaps_test/20250525-003614/failed_diff_AppLink_-_RedDark_mobile_0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Primary_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Primary_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Primary_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Primary_desktop_0.png",
         "label": "Button - Primary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -591,12 +579,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Primary_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Primary_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Primary_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Primary_mobile_0.png",
         "label": "Button - Primary",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -614,12 +602,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Clear_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Clear_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Clear_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Clear_desktop_0.png",
         "label": "Button - Clear",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -637,12 +625,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Clear_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Clear_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Clear_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Clear_mobile_0.png",
         "label": "Button - Clear",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -660,12 +648,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Outline_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Outline_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Outline_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Outline_desktop_0.png",
         "label": "Button - Outline",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -683,12 +671,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_Outline_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_Outline_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_Outline_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_Outline_mobile_0.png",
         "label": "Button - Outline",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -706,12 +694,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_OutlineDark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_OutlineDark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_OutlineDark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_OutlineDark_desktop_0.png",
         "label": "Button - OutlineDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -729,12 +717,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Button_-_OutlineDark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Button_-_OutlineDark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Button_-_OutlineDark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Button_-_OutlineDark_mobile_0.png",
         "label": "Button - OutlineDark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -752,12 +740,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Loader_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Loader_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Loader_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Loader_-_Dark_desktop_0.png",
         "label": "Loader - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -775,12 +763,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Loader_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Loader_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Loader_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Loader_-_Dark_mobile_0.png",
         "label": "Loader - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -798,12 +786,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Loader_-_Normal_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Loader_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Loader_-_Normal_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Loader_-_Normal_desktop_0.png",
         "label": "Loader - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -821,12 +809,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Loader_-_Normal_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Loader_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Loader_-_Normal_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Loader_-_Normal_mobile_0.png",
         "label": "Loader - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -844,12 +832,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Navbar_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Navbar_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Navbar_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Navbar_-_Dark_desktop_0.png",
         "label": "Navbar - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -867,12 +855,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Navbar_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Navbar_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Navbar_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Navbar_-_Dark_mobile_0.png",
         "label": "Navbar - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -884,7 +872,7 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 15
+          "analysisTime": 7
         }
       },
       "status": "pass"
@@ -892,12 +880,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Navbar_-_Lighty_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Navbar_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Navbar_-_Lighty_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Navbar_-_Lighty_desktop_0.png",
         "label": "Navbar - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -915,12 +903,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Navbar_-_Lighty_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Navbar_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Navbar_-_Lighty_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Navbar_-_Lighty_mobile_0.png",
         "label": "Navbar - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -932,7 +920,7 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 27
+          "analysisTime": 6
         }
       },
       "status": "pass"
@@ -940,12 +928,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/PageError_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/PageError_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/PageError_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "PageError_-_Dark_desktop_0.png",
         "label": "PageError - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -963,12 +951,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/PageError_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/PageError_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/PageError_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "PageError_-_Dark_mobile_0.png",
         "label": "PageError - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -980,7 +968,7 @@ report({
           },
           "rawMisMatchPercentage": 0,
           "misMatchPercentage": "0.00",
-          "analysisTime": 27
+          "analysisTime": 9
         }
       },
       "status": "pass"
@@ -988,12 +976,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/PageError_-_Lighty_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/PageError_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/PageError_-_Lighty_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "PageError_-_Lighty_desktop_0.png",
         "label": "PageError - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -1011,12 +999,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/PageError_-_Lighty_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/PageError_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/PageError_-_Lighty_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "PageError_-_Lighty_mobile_0.png",
         "label": "PageError - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -1034,12 +1022,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Sidebar_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Sidebar_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Sidebar_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Sidebar_-_Dark_desktop_0.png",
         "label": "Sidebar - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -1057,12 +1045,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Sidebar_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Sidebar_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Sidebar_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Sidebar_-_Dark_mobile_0.png",
         "label": "Sidebar - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -1080,12 +1068,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Sidebar_-_Lighty_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/Sidebar_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/Sidebar_-_Lighty_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "Sidebar_-_Lighty_desktop_0.png",
         "label": "Sidebar - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -1103,12 +1091,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Sidebar_-_Lighty_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/Sidebar_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/Sidebar_-_Lighty_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "Sidebar_-_Lighty_mobile_0.png",
         "label": "Sidebar - Lighty",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -1126,12 +1114,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/ThemeSwitcher_-_Dark_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/ThemeSwitcher_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/ThemeSwitcher_-_Dark_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "ThemeSwitcher_-_Dark_desktop_0.png",
         "label": "ThemeSwitcher - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -1149,12 +1137,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/ThemeSwitcher_-_Dark_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/ThemeSwitcher_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/ThemeSwitcher_-_Dark_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "ThemeSwitcher_-_Dark_mobile_0.png",
         "label": "ThemeSwitcher - Dark",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -1172,12 +1160,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/ThemeSwitcher_-_Normal_desktop_0.png",
-        "test": "../bitmaps_test/20250525-003614/ThemeSwitcher_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250525-002328/ThemeSwitcher_-_Normal_desktop_0.png",
         "selector": "#storybook-root",
         "fileName": "ThemeSwitcher_-_Normal_desktop_0.png",
         "label": "ThemeSwitcher - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -1195,12 +1183,12 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/ThemeSwitcher_-_Normal_mobile_0.png",
-        "test": "../bitmaps_test/20250525-003614/ThemeSwitcher_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250525-002328/ThemeSwitcher_-_Normal_mobile_0.png",
         "selector": "#storybook-root",
         "fileName": "ThemeSwitcher_-_Normal_mobile_0.png",
         "label": "ThemeSwitcher - Normal",
         "requireSameDimensions": false,
-        "misMatchThreshold": 0.005,
+        "misMatchThreshold": 0.1,
         "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
         "expect": 0,
         "viewportLabel": "mobile",
@@ -1217,4 +1205,4 @@ report({
     }
   ],
   "id": "storybook-visual-tests"
-});
+}
