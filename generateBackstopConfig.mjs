@@ -54,7 +54,7 @@ const scenarios = components.map((component) => {
         url,
         selectors: ['#storybook-root'],
         delay: isCI ? 5000 : 1500,
-        misMatchThreshold: 0.1, 
+        misMatchThreshold: 0.1,
         requireSameDimensions: false,
     };
 });
@@ -74,7 +74,13 @@ const backstopConfig = {
     engine: 'puppeteer',
     engineOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        launchOptions: {
+            timeout: 120000 // исправленный путь
+        }
     },
+    asyncCaptureLimit: 2,
+    asyncCompareLimit: 50,
+    debugWindow: false,
     report: ['browser'],
     debug: false,
     onReadyScript: 'onReady.cjs',
