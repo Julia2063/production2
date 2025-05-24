@@ -51,6 +51,11 @@ jobs:
       - name: Generate Backstop config
         run: npm run generate:ui
 
+      - name: Run visual regression tests (Backstop in Docker)
+        run: |
+          export CI=true
+          npm run test:ui:ci
+
       - name: Run visual regression tests (Backstop)
         run: npm run test:ui:ci
 
