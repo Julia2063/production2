@@ -41,10 +41,13 @@ const viewports = [
     { label: 'mobile', width: 375, height: 667, deviceScaleFactor: 2 },
 ];
 
+// eslint-disable-next-line no-undef
+const isCI = process.env.CI === 'true';
+const baseUrl = isCI ? 'http://host.docker.internal:6006' : 'http://localhost:6006';
+
 const scenarios = components.map((component) => {
     const label = `${component.name} - ${component.theme}`;
-    const url = 
-    `http://localhost:6006/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`;
+    const url = `${baseUrl}/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`;
 
     return {
         label,
