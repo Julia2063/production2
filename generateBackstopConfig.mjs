@@ -53,7 +53,7 @@ const scenarios = components.map((component) => {
         label,
         url,
         selectors: ['#storybook-root'],
-        delay: 1500,
+        delay: isCI ? 5000 : 1500,
         misMatchThreshold: 0.1, 
         requireSameDimensions: false,
     };
@@ -72,9 +72,6 @@ const backstopConfig = {
         ci_report: 'backstop_data/ci_report',
     },
     engine: 'puppeteer',
-    puppeteerLaunchOptions: {
-        timeout: 120000
-    },
     engineOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
