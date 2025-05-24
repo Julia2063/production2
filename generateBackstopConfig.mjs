@@ -73,9 +73,30 @@ const backstopConfig = {
     },
     engine: 'puppeteer',
     engineOptions: {
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-gpu',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-zygote',
+            '--single-process',
+            '--no-first-run',
+            '--no-default-browser-check',
+            '--disable-background-networking',
+            '--disable-background-timer-throttling',
+            '--disable-client-side-phishing-detection',
+            '--disable-default-apps',
+            '--disable-extensions',
+            '--disable-hang-monitor',
+            '--disable-popup-blocking',
+            '--disable-prompt-on-repost',
+            '--metrics-recording-only',
+            '--mute-audio'
+        ],
         launchOptions: {
-            timeout: 120000 // исправленный путь
+            headless: false,
+            timeout: 120000
         }
     },
     asyncCaptureLimit: 2,
