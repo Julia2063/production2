@@ -51,8 +51,14 @@ jobs:
       - name: Generate Backstop config
         run: npm run generate:ui
 
-      - name: Run Backstop tests via Docker (manual workaround)
-        run: npm run test:ui:ci:manual
+      - name: Run Backstop tests via Docker (Linux workaround)
+        run: |
+          HOST_IP=$(ip route | awk '/default/ { print $3 }')
+          docker run --rm \
+            --add-host=host.docker.internal:$HOST_IP \
+            --mount type=bind,source="$(pwd)",target=/src \
+            backstopjs/backstopjs:6.3.25 test
+
 
       - name: Prepare Backstop report for download
         if: always()
