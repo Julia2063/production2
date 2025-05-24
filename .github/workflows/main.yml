@@ -39,43 +39,5 @@ jobs:
       - name: Build Storybook
         run: npm run storybook:build
 
-      - name: Serve Storybook in background
-        run: npx http-server storybook-static -p 6006 -a 0.0.0.0 &
-
-
-      - name: Wait for Storybook to be ready
-        uses: jakejarvis/wait-action@v0.1.0
-        with:
-          url: http://localhost:6006/iframe.html
-          timeout: 60
-
-      - name: Generate Backstop config
-        run: npm run generate:ui
-
-      - name: Detect Host IP
-        run: echo "HOST_IP=$(ip route | awk '/default/ { print $3 }')" >> $GITHUB_ENV
-
-      - name: Run Backstop
-        run: |
-          docker run --rm \
-            --add-host=host.docker.internal:$HOST_IP \
-            --mount type=bind,source="$(pwd)",target=/src \
-            -e HOST_IP=$HOST_IP \
-            backstopjs/backstopjs:6.3.25 test
-
-      - name: Prepare Backstop report for download
-        if: always()
-        run: |
-          mkdir -p public
-          cp -r backstop_data/html_report/* public/
-          cp -r backstop_data/bitmaps_test public/
-          cp -r backstop_data/bitmaps_reference public/
-          sed -i 's|\.\./bitmaps_test/|bitmaps_test/|g' public/config.js || true
-          sed -i 's|\.\./bitmaps_reference/|bitmaps_reference/|g' public/config.js || true
-
-      - name: Upload Backstop report as artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: backstop-report
-          path: public
+      - name: Publish Storybook to Chromatic
+        run: npm run test:ui:ci

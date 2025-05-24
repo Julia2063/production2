@@ -41,11 +41,7 @@ const viewports = [
     { label: 'mobile', width: 375, height: 667, deviceScaleFactor: 2 },
 ];
 
-// eslint-disable-next-line no-undef
-const isCI = process.env.CI === 'true';
-// eslint-disable-next-line no-undef
-const hostIp = process.env.HOST_IP || 'localhost';
-const baseUrl = isCI ? `http://${hostIp}:6006` : 'http://localhost:6006';
+const baseUrl =  'http://localhost:6006';
 
 const scenarios = components.map((component) => {
     const label = `${component.name} - ${component.theme}`;
@@ -55,7 +51,7 @@ const scenarios = components.map((component) => {
         label,
         url,
         selectors: ['#storybook-root'],
-        delay: isCI ? 5000 : 1500,
+        delay: 1500,
         misMatchThreshold: 0.1,
         requireSameDimensions: false,
     };
@@ -76,9 +72,6 @@ const backstopConfig = {
     engine: 'puppeteer',
     engineOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        launchOptions: {
-            timeout: 120000,
-        }
     },
     asyncCaptureLimit: 2,
     asyncCompareLimit: 50,
