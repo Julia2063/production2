@@ -72,6 +72,9 @@ const backstopConfig = {
         ci_report: 'backstop_data/ci_report',
     },
     engine: 'puppeteer',
+    puppeteerLaunchOptions: {
+        timeout: 120000
+    },
     engineOptions: {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
