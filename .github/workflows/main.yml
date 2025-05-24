@@ -51,8 +51,11 @@ jobs:
       - name: Generate Backstop config
         run: npm run generate:ui
 
-      - name: Run visual regression tests (Backstop in Docker)
-        run: CI=true npm run test:ui:ci
+      - name: Run Backstop tests via Docker (manual workaround)
+        run: |
+          docker run --rm \
+            --mount type=bind,source="$(pwd)",target=/src \
+            backstopjs/backstopjs:6.3.25 test
 
       - name: Prepare Backstop report for download
         if: always()
