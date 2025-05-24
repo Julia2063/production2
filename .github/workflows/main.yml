@@ -52,10 +52,7 @@ jobs:
         run: npm run generate:ui
 
       - name: Run Backstop tests via Docker (manual workaround)
-        run: |
-          docker run --rm \
-            --mount type=bind,source="$(pwd)",target=/src \
-            backstopjs/backstopjs:6.3.25 test
+        run: npm run test:ui:ci:manual
 
       - name: Prepare Backstop report for download
         if: always()
