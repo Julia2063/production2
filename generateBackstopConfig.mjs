@@ -43,7 +43,9 @@ const viewports = [
 
 // eslint-disable-next-line no-undef
 const isCI = process.env.CI === 'true';
-const baseUrl = isCI ? 'http://host.docker.internal:6006' : 'http://localhost:6006';
+// eslint-disable-next-line no-undef
+const hostIp = process.env.HOST_IP || 'localhost';
+const baseUrl = isCI ? `http://${hostIp}:6006` : 'http://localhost:6006';
 
 const scenarios = components.map((component) => {
     const label = `${component.name} - ${component.theme}`;
@@ -73,30 +75,9 @@ const backstopConfig = {
     },
     engine: 'puppeteer',
     engineOptions: {
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-gpu',
-            '--disable-dev-shm-usage',
-            '--disable-accelerated-2d-canvas',
-            '--no-zygote',
-            '--single-process',
-            '--no-first-run',
-            '--no-default-browser-check',
-            '--disable-background-networking',
-            '--disable-background-timer-throttling',
-            '--disable-client-side-phishing-detection',
-            '--disable-default-apps',
-            '--disable-extensions',
-            '--disable-hang-monitor',
-            '--disable-popup-blocking',
-            '--disable-prompt-on-repost',
-            '--metrics-recording-only',
-            '--mute-audio'
-        ],
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
         launchOptions: {
-            headless: false,
-            timeout: 120000
+            timeout: 120000,
         }
     },
     asyncCaptureLimit: 2,
