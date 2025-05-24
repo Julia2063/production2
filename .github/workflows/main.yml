@@ -46,7 +46,7 @@ jobs:
         uses: jakejarvis/wait-action@v0.1.0
         with:
           url: http://localhost:6006/iframe.html
-          timeout: 30
+          timeout: 120
 
       - name: Generate Backstop config
         run: npm run generate:ui
