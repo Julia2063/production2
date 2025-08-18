@@ -30,23 +30,24 @@ jobs:
         run: npm run build:prod
 
       - name: Lint TypeScript
+        if: ${{ always() }}
         run: npm run lint:ts
-        if: always()
 
       - name: Lint SCSS
+        if: ${{ always() }}
         run: npm run lint:scss
-        if: always()
 
       - name: Run unit tests
+        if: ${{ always() }}
         run: npm run test:unit
-        if: always()
-        
 
       - name: Build Storybook
+        if: ${{ always() }}
         run: npm run storybook:build
-        if: always()
 
       - name: Publish Storybook to Chromatic
-        if: contains(github.event.head_commit.message, '[ui]')
+        if: ${{ always() && (
+              (github.event_name == 'push' && contains(github.event.head_commit.message, '[ui]')) ||
+              (github.event_name == 'pull_request' && contains(github.event.pull_request.title, '[ui]'))
+            ) }}
         run: npm run test:ui:ci
-        if: always()
