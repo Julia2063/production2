@@ -6,6 +6,10 @@ module.exports = async (page, scenario) => {
         document.body.style.overflow = 'hidden';
         window.scrollTo(0, 0);
     });
+    
+    await page.evaluate(async () => {
+        await document.fonts.ready;
+    });
 
     await page.evaluate(() => {
         const style = document.createElement('style');
@@ -14,6 +18,8 @@ module.exports = async (page, scenario) => {
           text-rendering: geometricPrecision !important;
           -webkit-font-smoothing: antialiased !important;
           -moz-osx-font-smoothing: grayscale !important;
+          animation: none !important;
+          transition: none !important;
         }
 
         html, body {
@@ -31,7 +37,6 @@ module.exports = async (page, scenario) => {
           margin: 0 !important;
           padding: 0 !important;
           line-height: 1 !important;
-          transform: translateY(0.5px) !important;
         }
       `;
         document.head.appendChild(style);

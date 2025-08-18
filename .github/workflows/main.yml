@@ -31,16 +31,22 @@ jobs:
 
       - name: Lint TypeScript
         run: npm run lint:ts
+        if: always()
 
       - name: Lint SCSS
         run: npm run lint:scss
+        if: always()
 
       - name: Run unit tests
         run: npm run test:unit
+        if: always()
+        
 
       - name: Build Storybook
         run: npm run storybook:build
+        if: always()
 
       - name: Publish Storybook to Chromatic
         if: contains(github.event.head_commit.message, '[ui]')
         run: npm run test:ui:ci
+        if: always()

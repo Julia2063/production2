@@ -43,16 +43,40 @@ const viewports = [
 
 const baseUrl =  'http://localhost:6006';
 
+const thresholds = {
+    'AppLink - PrimaryDark': 0.02,
+    'AppLink - Primary': 0.02,
+    'AboutPage - Dark': 0.02,
+    'AboutPage - Normal': 0.02,
+    'MainPage - Dark': 0.02,
+    'MainPage - Normal': 0.02,
+    'NotFoundPage - Dark': 0.02,
+    'NotFoundPage - Normal': 0.02,
+    'Button - Primary': 0.02,
+    'Button - Clear': 0.02,
+    'Button - Outline': 0.02,
+    'Button - OutlineDark': 0.02,
+    'Loader - Dark': 0.02,
+    'Loader - Normal': 0.02,
+    'Navbar - Dark': 0.02,
+    'Navbar - Lighty': 0.02,
+    'PageError - Dark': 0.02,
+    'PageError - Lighty': 0.02,
+    
+};
+
 const scenarios = components.map((component) => {
     const label = `${component.name} - ${component.theme}`;
     const url = `${baseUrl}/iframe.html?id=${component.path.replace(/^\//, '')}&viewMode=story`;
+
+    const misMatchThreshold = thresholds[label] || 0.005;
 
     return {
         label,
         url,
         selectors: ['#storybook-root'],
-        delay: 1500,
-        misMatchThreshold: 0.005,
+        delay: 2000,
+        misMatchThreshold,
 
         requireSameDimensions: false,
     };

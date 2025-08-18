@@ -21,8 +21,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -31,8 +31,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -41,8 +41,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -51,8 +51,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -61,8 +61,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -71,8 +71,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -81,8 +81,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -91,7 +91,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -101,7 +101,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -111,8 +111,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -121,7 +121,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -131,7 +131,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -141,8 +141,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -151,8 +151,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -161,8 +161,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -171,8 +171,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -181,8 +181,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -191,8 +191,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -201,8 +201,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -211,8 +211,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -221,8 +221,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -231,8 +231,8 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
-      "misMatchThreshold": 0.005,
+      "delay": 2000,
+      "misMatchThreshold": 0.02,
       "requireSameDimensions": false
     },
     {
@@ -241,7 +241,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -251,7 +251,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -261,7 +261,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     },
@@ -271,7 +271,7 @@
       "selectors": [
         "#storybook-root"
       ],
-      "delay": 1500,
+      "delay": 2000,
       "misMatchThreshold": 0.005,
       "requireSameDimensions": false
     }

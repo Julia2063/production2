@@ -1,0 +1,1353 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AboutPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AboutPage_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AboutPage_-_Dark_desktop_0.png",
+        "label": "AboutPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.018492252318204002,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 957
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AboutPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AboutPage_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AboutPage_-_Dark_mobile_0.png",
+        "label": "AboutPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.07756121939030486,
+          "misMatchPercentage": "0.08",
+          "analysisTime": 767
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AboutPage_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AboutPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AboutPage_-_Normal_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AboutPage_-_Normal_desktop_0.png",
+        "label": "AboutPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.01906417764763299,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 558
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AboutPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AboutPage_-_Normal_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AboutPage_-_Normal_mobile_0.png",
+        "label": "AboutPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-aboutpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.079960019990005,
+          "misMatchPercentage": "0.08",
+          "analysisTime": 477
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AboutPage_-_Normal_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/MainPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/MainPage_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "MainPage_-_Dark_desktop_0.png",
+        "label": "MainPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.07168130795510005,
+          "misMatchPercentage": "0.07",
+          "analysisTime": 773
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_MainPage_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/MainPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/MainPage_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "MainPage_-_Dark_mobile_0.png",
+        "label": "MainPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-mainpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.3006496751624188,
+          "misMatchPercentage": "0.30",
+          "analysisTime": 537
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_MainPage_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/MainPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/MainPage_-_Normal_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "MainPage_-_Normal_desktop_0.png",
+        "label": "MainPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0723485541727672,
+          "misMatchPercentage": "0.07",
+          "analysisTime": 796
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_MainPage_-_Normal_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/MainPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/MainPage_-_Normal_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "MainPage_-_Normal_mobile_0.png",
+        "label": "MainPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-mainpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.30344827586206896,
+          "misMatchPercentage": "0.30",
+          "analysisTime": 356
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_MainPage_-_Normal_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/NotFoundPage_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/NotFoundPage_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "NotFoundPage_-_Dark_desktop_0.png",
+        "label": "NotFoundPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.05461886896046852,
+          "misMatchPercentage": "0.05",
+          "analysisTime": 329
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_NotFoundPage_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/NotFoundPage_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/NotFoundPage_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "NotFoundPage_-_Dark_mobile_0.png",
+        "label": "NotFoundPage - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.24107946026986504,
+          "misMatchPercentage": "0.24",
+          "analysisTime": 339
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_NotFoundPage_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/NotFoundPage_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/NotFoundPage_-_Normal_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "NotFoundPage_-_Normal_desktop_0.png",
+        "label": "NotFoundPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.05595336139580283,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 745
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_NotFoundPage_-_Normal_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/NotFoundPage_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/NotFoundPage_-_Normal_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "NotFoundPage_-_Normal_mobile_0.png",
+        "label": "NotFoundPage - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=pages-notfoundpage--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2522738630684658,
+          "misMatchPercentage": "0.25",
+          "analysisTime": 459
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_NotFoundPage_-_Normal_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Primary_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Primary_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Primary_desktop_0.png",
+        "label": "AppLink - Primary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.022591050512445095,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 703
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Primary_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Primary_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Primary_mobile_0.png",
+        "label": "AppLink - Primary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--primary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.09475262368815593,
+          "misMatchPercentage": "0.09",
+          "analysisTime": 488
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_Primary_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Secondary_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Secondary_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Secondary_desktop_0.png",
+        "label": "AppLink - Secondary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.015156021229868229,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 648
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_Secondary_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Secondary_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Secondary_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Secondary_mobile_0.png",
+        "label": "AppLink - Secondary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.06356821589205397,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 566
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_Secondary_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Red_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Red_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Red_desktop_0.png",
+        "label": "AppLink - Red",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.015156021229868229,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 469
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_Red_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_Red_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_Red_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_Red_mobile_0.png",
+        "label": "AppLink - Red",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--red&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.06356821589205397,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 273
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_Red_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_PrimaryDark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_PrimaryDark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_PrimaryDark_desktop_0.png",
+        "label": "AppLink - PrimaryDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.02173316251830161,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 421
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_PrimaryDark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_PrimaryDark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_PrimaryDark_mobile_0.png",
+        "label": "AppLink - PrimaryDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--primary-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0911544227886057,
+          "misMatchPercentage": "0.09",
+          "analysisTime": 379
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_PrimaryDark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_SecondaryDark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_SecondaryDark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_SecondaryDark_desktop_0.png",
+        "label": "AppLink - SecondaryDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.007816312835529526,
+          "misMatchPercentage": "0.01",
+          "analysisTime": 298
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_SecondaryDark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_SecondaryDark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_SecondaryDark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_SecondaryDark_mobile_0.png",
+        "label": "AppLink - SecondaryDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--secondary-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.03278360819590205,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 462
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_SecondaryDark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_RedDark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_RedDark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_RedDark_desktop_0.png",
+        "label": "AppLink - RedDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.015156021229868229,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 589
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_RedDark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/AppLink_-_RedDark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/AppLink_-_RedDark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "AppLink_-_RedDark_mobile_0.png",
+        "label": "AppLink - RedDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=shared-applink--red-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.06356821589205397,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 428
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_AppLink_-_RedDark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Primary_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Primary_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Primary_desktop_0.png",
+        "label": "Button - Primary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.02764305758906784,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 425
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_Primary_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Primary_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Primary_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Primary_mobile_0.png",
+        "label": "Button - Primary",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--primary&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.11594202898550725,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 376
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_Primary_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Clear_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Clear_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Clear_desktop_0.png",
+        "label": "Button - Clear",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.015441983894582723,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 756
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Clear_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Clear_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Clear_mobile_0.png",
+        "label": "Button - Clear",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--clear&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.06476761619190405,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 675
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_Clear_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Outline_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Outline_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Outline_desktop_0.png",
+        "label": "Button - Outline",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.02974011713030747,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 1063
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_Outline_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_Outline_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_Outline_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_Outline_mobile_0.png",
+        "label": "Button - Outline",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--outline&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.12473763118440781,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 522
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_Outline_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_OutlineDark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_OutlineDark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_OutlineDark_desktop_0.png",
+        "label": "Button - OutlineDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.029263512689116644,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 804
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_OutlineDark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Button_-_OutlineDark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Button_-_OutlineDark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Button_-_OutlineDark_mobile_0.png",
+        "label": "Button - OutlineDark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-button--outline-dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.12273863068465768,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 365
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Button_-_OutlineDark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Loader_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Loader_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Loader_-_Dark_desktop_0.png",
+        "label": "Loader - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.044610175695461204,
+          "misMatchPercentage": "0.04",
+          "analysisTime": 371
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Loader_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Loader_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Loader_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Loader_-_Dark_mobile_0.png",
+        "label": "Loader - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-loader--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.1871064467766117,
+          "misMatchPercentage": "0.19",
+          "analysisTime": 400
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Loader_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Loader_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Loader_-_Normal_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Loader_-_Normal_desktop_0.png",
+        "label": "Loader - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.044610175695461204,
+          "misMatchPercentage": "0.04",
+          "analysisTime": 430
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Loader_-_Normal_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Loader_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Loader_-_Normal_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Loader_-_Normal_mobile_0.png",
+        "label": "Loader - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=shared-loader--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.1871064467766117,
+          "misMatchPercentage": "0.19",
+          "analysisTime": 296
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Loader_-_Normal_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Navbar_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Navbar_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Navbar_-_Dark_desktop_0.png",
+        "label": "Navbar - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.04928089921913128,
+          "misMatchPercentage": "0.05",
+          "analysisTime": 863
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Navbar_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Navbar_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Navbar_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Navbar_-_Dark_mobile_0.png",
+        "label": "Navbar - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-navbar--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2066966516741629,
+          "misMatchPercentage": "0.21",
+          "analysisTime": 451
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Navbar_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Navbar_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Navbar_-_Lighty_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Navbar_-_Lighty_desktop_0.png",
+        "label": "Navbar - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.0465165934602245,
+          "misMatchPercentage": "0.05",
+          "analysisTime": 499
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Navbar_-_Lighty_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Navbar_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Navbar_-_Lighty_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Navbar_-_Lighty_mobile_0.png",
+        "label": "Navbar - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-navbar--lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.1951024487756122,
+          "misMatchPercentage": "0.20",
+          "analysisTime": 284
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Navbar_-_Lighty_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/PageError_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/PageError_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "PageError_-_Dark_desktop_0.png",
+        "label": "PageError - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.11772129697413374,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 359
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_PageError_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/PageError_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/PageError_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "PageError_-_Dark_mobile_0.png",
+        "label": "PageError - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5321339330334833,
+          "misMatchPercentage": "0.53",
+          "analysisTime": 398
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_PageError_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/PageError_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/PageError_-_Lighty_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "PageError_-_Lighty_desktop_0.png",
+        "label": "PageError - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.12201073694485115,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 420
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_PageError_-_Lighty_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/PageError_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/PageError_-_Lighty_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "PageError_-_Lighty_mobile_0.png",
+        "label": "PageError - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.02,
+        "url": "http://localhost:6006/iframe.html?id=widgets-pageerror--prima-lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.542928535732134,
+          "misMatchPercentage": "0.54",
+          "analysisTime": 350
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_PageError_-_Lighty_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Sidebar_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Sidebar_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Sidebar_-_Dark_desktop_0.png",
+        "label": "Sidebar - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 20
+          },
+          "rawMisMatchPercentage": 3.924905797801577,
+          "misMatchPercentage": "3.92",
+          "analysisTime": 181
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Sidebar_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Sidebar_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Sidebar_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Sidebar_-_Dark_mobile_0.png",
+        "label": "Sidebar - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -20
+          },
+          "rawMisMatchPercentage": 8.705676855895197,
+          "misMatchPercentage": "8.71",
+          "analysisTime": 452
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Sidebar_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Sidebar_-_Lighty_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/Sidebar_-_Lighty_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Sidebar_-_Lighty_desktop_0.png",
+        "label": "Sidebar - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 20
+          },
+          "rawMisMatchPercentage": 3.926578026175948,
+          "misMatchPercentage": "3.93",
+          "analysisTime": 166
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Sidebar_-_Lighty_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Sidebar_-_Lighty_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/Sidebar_-_Lighty_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "Sidebar_-_Lighty_mobile_0.png",
+        "label": "Sidebar - Lighty",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-sidebar--prima-lighty&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 20
+          },
+          "rawMisMatchPercentage": 8.712663755458514,
+          "misMatchPercentage": "8.71",
+          "analysisTime": 457
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_Sidebar_-_Lighty_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ThemeSwitcher_-_Dark_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/ThemeSwitcher_-_Dark_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "ThemeSwitcher_-_Dark_desktop_0.png",
+        "label": "ThemeSwitcher - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.027547736700829675,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 316
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_ThemeSwitcher_-_Dark_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ThemeSwitcher_-_Dark_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/ThemeSwitcher_-_Dark_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "ThemeSwitcher_-_Dark_mobile_0.png",
+        "label": "ThemeSwitcher - Dark",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--dark&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.11554222888555722,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 220
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_ThemeSwitcher_-_Dark_mobile_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ThemeSwitcher_-_Normal_desktop_0.png",
+        "test": "../bitmaps_test/20250721-233758/ThemeSwitcher_-_Normal_desktop_0.png",
+        "selector": "#storybook-root",
+        "fileName": "ThemeSwitcher_-_Normal_desktop_0.png",
+        "label": "ThemeSwitcher - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.027547736700829675,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 89
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_ThemeSwitcher_-_Normal_desktop_0.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ThemeSwitcher_-_Normal_mobile_0.png",
+        "test": "../bitmaps_test/20250721-233758/ThemeSwitcher_-_Normal_mobile_0.png",
+        "selector": "#storybook-root",
+        "fileName": "ThemeSwitcher_-_Normal_mobile_0.png",
+        "label": "ThemeSwitcher - Normal",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.005,
+        "url": "http://localhost:6006/iframe.html?id=widgets-themeswitcher--normal&viewMode=story",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.11554222888555722,
+          "misMatchPercentage": "0.12",
+          "analysisTime": 32
+        },
+        "diffImage": "../bitmaps_test/20250721-233758/failed_diff_ThemeSwitcher_-_Normal_mobile_0.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "storybook-visual-tests"
+}
