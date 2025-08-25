@@ -45,9 +45,21 @@ jobs:
         if: ${{ always() }}
         run: npm run storybook:build
 
-      - name: Publish Storybook to Chromatic
+      - name: Publish to Chromatic
+        id: chromatic
         if: ${{ always() && (
               (github.event_name == 'push' && contains(github.event.head_commit.message, '[ui]')) ||
               (github.event_name == 'pull_request' && contains(github.event.pull_request.title, '[ui]'))
             ) }}
-        run: npm run test:ui:ci
+        uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: storybook-static
+          onlyChanged: true
+          exitZeroOnChanges: true   
+
+      - name: Chromatic link
+        if: ${{ steps.chromatic.outputs.buildUrl != '' }}
+        run: echo "[Open Chromatic build](${{ steps.chromatic.outputs.buildUrl }})" >> $GITHUB_STEP_SUMMARY
+
+
